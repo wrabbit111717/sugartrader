@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(223, 223, 223);
+  padding-bottom: 100px;
+}
+/* ログイン画面------------------------------------------------- */
+.container-login {
+  width: 432px;
+  height: 900px;
+  padding: 80px 0 30px 40px;
+  background-image: linear-gradient(154deg, #007aff, #3a65df 49%, #575acf 100%);
+  overflow: hidden;
+}
+/* サインアップ画面------------------------------------------------- */
+.container-signup {
+  width: 432px;
+  height: 900px;
+  padding: 80px 0 30px 40px;
+  background-image: linear-gradient(152deg, #ea8f93 0%, #eb445a 103%);
+  overflow: hidden;
+}
+/* サインイン画面------------------------------------------------- */
+
+.container-signin {
+  width: 432px;
+  height: 900px;
+  padding: 80px 0 30px 40px;
+  background-image: linear-gradient(154deg, #68cd66, #3bb2b8 100%);
+  overflow: hidden;
+}
+/* サブスク背景------------------------------------------------- */
+
+.container-subsc {
+  width: 612px;
+  height: 128px;
+  padding: 0 0 0 24px;
+  border-radius: 8px;
+  background-image: linear-gradient(102deg, #007aff, #3a65df 49%, #575acf);
+  position: relative;
+  overflow: hidden;
+}
+
+.container-subsc img {
+  position: absolute;
+  right: -65px;
+  top: -35px;
+}
+/* サブスクアイコン------------------------------------------------- */
+
+.container-subsc-icon {
+  width: 44px;
+  height: 44px;
+  /* padding: 9px; svg画像にpadding要素が入っているようです。(2022/2/8 いずく)*/
+  border-radius: 8px;
+  background-image: linear-gradient(135deg, #007aff, #3a65df 49%, #575acf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-subsc-icon img {
+  width: 26px;
+  opacity: 0.94;
+}
